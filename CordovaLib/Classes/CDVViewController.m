@@ -47,6 +47,7 @@
 @synthesize imageView, activityView, useSplashScreen;
 @synthesize wwwFolderName, startPage, invokeString, initialized;
 @synthesize commandDelegate = _commandDelegate;
+@synthesize commandQueue = _commandQueue;
 
 - (void)__init
 {
