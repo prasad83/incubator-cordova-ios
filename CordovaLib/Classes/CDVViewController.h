@@ -32,6 +32,7 @@
 @interface CDVViewController : UIViewController <UIWebViewDelegate, CDVScreenOrientationDelegate>{
     @private
     CDVCommandDelegateImpl* _commandDelegate;
+    CDVCommandQueue* _commandQueue;
 }
 
 @property (nonatomic, strong) IBOutlet CDVCordovaView* webView;
